@@ -5,10 +5,12 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-    sel.f
+    self.all.each do |show|
+          
   end
 
   def self.lowest_rating
+    self.minimum(:rating)
 
   end
 
