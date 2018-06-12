@@ -1,5 +1,5 @@
 def highest_rating
-
+  Show.maximum
 end
 
 def most_popular_show
@@ -25,4 +25,3 @@ end
 def shows_by_alphabetical_order
 
 end
-
